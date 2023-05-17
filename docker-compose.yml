@@ -5,7 +5,7 @@ services:
       context: .
     image: reearth/reearth-backend:nightly
     environment:
-      REEARTH_DB: mongodb://reearth-mongo
+      REEARTH_DB: mongodb://mongo:0X7qz05IOcfon3gjt5JP@containers-us-west-66.railway.app:5651
     ports:
       - '8080:8080'
     # env_file:
